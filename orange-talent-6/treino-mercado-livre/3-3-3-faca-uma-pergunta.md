@@ -6,7 +6,7 @@ Um usuário logado pode fazer uma pergunta sobre o produto
 
 ### Necessidades
 
-*   A pergunta tem um título
+*   A pergunta tem uma descrição
 *   Tem instante de criação
 *   O usuário que fez a pergunta
 *   O produto relacionado a pergunta
@@ -15,7 +15,7 @@ Um usuário logado pode fazer uma pergunta sobre o produto
 
 ### Restrições
 
-*   O título é obrigatório
+*   A descrição é obrigatória
 *   O produto é obrigatório
 *   O usuário é obrigatório
 
