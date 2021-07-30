@@ -44,7 +44,7 @@ a operação precisou fazer para atender a requisição do cliente.
 
 Demais né?
 
-Além de propagar os metadados os mesmos são enviados assíncronamente para uma ferramenta que os armazena e 
+Além de propagar os metadados, estes também são enviados assincronamente para uma ferramenta que os armazena e 
 provendo funcionalidades, como por exemplo:
 
 - Catálogo de serviços
