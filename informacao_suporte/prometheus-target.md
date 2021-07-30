@@ -20,7 +20,7 @@ $ docker-compose -f nosso_cartao.yaml stop prometheus
 Agora que nosso container do Prometheus está parado, precisamos criar e configurar o arquivo `prometheus.yml` na pasta 
 raiz onde se encontra o arquivo do nosso docker-compose, como por exemplo o `nosso_cartao.yaml`!
 
-Caso já exista o arquivo `prometheus.yml`, utilize o mesmo e adicione o `job_name` no ramo `scrape_configs` conforme 
+Caso já exista o arquivo `prometheus.yml`, utilize-o e adicione o `job_name` no ramo `scrape_configs` conforme 
 exemplo abaixo:
 
 ```yaml
@@ -33,7 +33,7 @@ scrape_configs:
       - targets: ['localhost:8080']
 ```
 
-Caso não tenha o arquivo `prometheus.yml` crie o mesmo e adicione as seguintes informações:
+Caso não tenha o arquivo `prometheus.yml` crie-o e adicione as seguintes informações:
 
 ```yaml
 global:
@@ -48,7 +48,7 @@ scrape_configs:
       - targets: ['localhost:8080']
 ```
 
-Agora que o arquivo `prometheus.yml` foi criado e configurado, precisamos mapear o mesmo no nosso [docker-compose](../ops/docker-compose.yaml), 
+Agora que o arquivo `prometheus.yml` foi criado e configurado, precisamos mapeá-lo no nosso [docker-compose](../ops/docker-compose.yaml), 
 na seção do Prometheus, conforme exemplo abaixo:
 
 ```yaml
