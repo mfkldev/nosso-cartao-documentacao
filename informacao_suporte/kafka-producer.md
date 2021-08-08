@@ -7,7 +7,7 @@ O produtor envia os eventos para o broker líder, ou seja, em um conjunto de má
 é eleito um líder que irá receber os eventos de acordo com o tópico e partição! Portanto, no Apache Kafka não existe um 
 líder geral e sim um líder específico por partição.
  
-Para que seja possível saber os líderes o Apache Kafka informa para os produtores quais brokers estão aptos a receber 
+Para que seja possível saber os líderes, o Apache Kafka informa para os produtores quais brokers estão aptos a receber 
 eventos, por isso, é de extrema importância ter replicações das partições, pois, se uma máquina (broker) cai a outra 
 assume a liderança da(s) partição(ões)!
 Para enviar um evento é preciso enviar as seguintes informações:
@@ -18,7 +18,7 @@ Para enviar um evento é preciso enviar as seguintes informações:
 
 Eba! Sabemos como funciona um produtor!
 
-Calma! Vamos aprender sobre o ciclo de vida do mesmo?
+Calma! Vamos aprender sobre o ciclo de vida!?
 
 Sabia que é possível configurar retry para que não percamos mensagens?
 
