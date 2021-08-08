@@ -1,12 +1,12 @@
 # Kafka - Tópico
 
-Na arquitetura do Apache Kafka existem vários componentes, como por exemplo, o Tópico que tem a responsabilidade de 
-representar um stream de evento, como por exemplo, um tópico de transações!
+Na arquitetura do Apache Kafka existem vários componentes, como por exemplo, o Tópico, que tem a responsabilidade de 
+representar um stream de evento, tal como, um tópico de transações!
 
-Uma analogia para a gente entender o que é um Tópico é dizer que o mesmo é uma tabela no banco de dados, onde contém 
-todos os registros e a ordem de cadastro dos mesmos!
+Uma analogia para a gente entender o que é um Tópico é dizer que é uma tabela no banco de dados, onde contém 
+todos os registros e a ordem de cadastro de cada evento!
 
-Portanto, caso um determinado consumidor queira consumir as transações, basta o mesmo se conectar e começar operar 
+Portanto, caso um determinado consumidor queira consumir as transações, basta se conectar e começar operar 
 no Tópico.
 
 Demais né!?
