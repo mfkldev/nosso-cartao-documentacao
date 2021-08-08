@@ -14,13 +14,13 @@ estejam no lugar certo, na hora certa.
 
 Demais né? Qual a motivação de utilizar?
 
-Imagina um banco! Não seria legal após a gente fazer uma compra no cartão de crédito e a mesma aparecer logo em seguida 
+Imagina um banco! Não seria legal após a gente fazer uma compra no cartão de crédito e o registro aparecer logo em seguida 
 na fatura?
 
-Hoje alguns bancos, tem que consolidar as transações, por isso leva-se algumas horas para aparecer na nossa fatura!
+Hoje alguns bancos tem que consolidar as transações, por isso leva-se algumas horas para aparecer na nossa fatura!
 
-Imagina se tivesse um evento `ComprarEfetuda` no qual fosse publicado no `Event streaming` e o serviço de fatura 
-processa-se segundos ou minutos depois!
+Imagina se tivesse um evento `ComprarEfetuada` no qual fosse publicado no `Event streaming` e o serviço de fatura 
+processasse segundos ou minutos depois!
 
 A experiência do usuário mudaria muito, correto?
 
@@ -48,7 +48,7 @@ O Apache Kafka optou pelo uso do pull model, pois, provê algumas vantagens bem 
 
 ## Dicas
 
-O Apache Kafka é muito utilizado pela **Zup** e outras empresas, portanto, aproveita para se aprofundar nesse assunto, como 
+O Apache Kafka é muito utilizado pela **Zup** e outras empresas, portanto, aproveite para se aprofundar nesse assunto, como 
 por exemplo?
 
 - Por que ele é tão performático? Dê uma olhada no modelo [pull model](https://kafka.apache.org/documentation/#design_pull)
